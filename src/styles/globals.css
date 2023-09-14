@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.photo {
+  box-shadow: 0 10px 0 0 rgb(var(--foreground-rgb));
+}

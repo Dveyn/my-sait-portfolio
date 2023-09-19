@@ -7,8 +7,7 @@
   background-size: cover;
   box-sizing: border-box;
   position: relative;
-  filter: var(--filter);
-  -webkit-filter: var(--filter);
+
 }
 .start_text::after {
   content: '';
@@ -30,4 +29,24 @@
   color: var(--color);
   position: relative;
   z-index: 2;
+}
+
+.center_block {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: 600;
+}
+.pretitle {
+  font-size: 2em;
 }

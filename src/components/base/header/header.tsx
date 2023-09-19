@@ -1,8 +1,8 @@
-import { SwitherThema } from "@@/components/switcher-thema/switcher-thema";
+import { SwitherThema } from "@@/components/switcher-thema/index";
 import React from "react";
 
 export const Header = () => {
-  return <header>Хедер сайта 
+  return <header>
     <SwitherThema />
   </header>
 }
